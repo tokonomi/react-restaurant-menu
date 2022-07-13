@@ -1,0 +1,175 @@
+// HEADER
+
+.headerMenu{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+//MENU INFO
+
+.data_list{
+    // z-index: -90;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f8fafc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.restaurant_data{
+    display: flex;
+    align-items: center;
+    div{
+        width: 150px;
+        padding: 10px 15px;
+        text-align: right;
+    }
+    & div:first-child{
+        width: 30px;
+    }
+}
+
+// MODAL
+
+.modal{
+    z-index: 99;
+    height: 100vh;
+    background-color: rgba(0,0,0, .50);
+    position: relative;
+    .close_btn{
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        font-size: 25px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .detailed_block{
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.3em;
+        width:600px;
+        height: 300px;
+        padding: 25px 15px;
+        background-color: #fff;
+        justify-content: space-around;
+        .list_item{
+            padding: 5px 0;
+        }
+        .table_menu{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .end_data{
+            display: flex;
+            flex-direction: column;
+            span{
+                padding: 5px 0;
+            }
+        }
+        .table_status{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-bottom: 5px;
+        }
+    }
+}
+
+// CREATE ORDER
+
+.create_block{
+    position: relative;
+    height: 100vh;
+    form{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 600px;
+        padding: 10px 20px;
+        background-color: #f8fafc;
+        > div{
+            display: flex;
+            flex-direction: column!important;
+            margin: 0;
+            div{
+                padding: 5px 0;
+            }
+            & .price_field{
+                display: flex;
+            }
+            .common_price{
+                padding-left: 20px;
+                p{
+                    font-size: 1.7em;
+                }
+            }
+            .confirmation{
+                margin-top: 20px;
+                margin-left: 7px;
+                width: 100px;
+            }
+        }
+
+    }
+}
+
+// ORDER OPTION
+
+.order_options_block{
+    height: 100vh;
+    position: relative;
+    .options{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.info_list{
+    padding: 20px 20px;
+    width: 900px;
+    min-height: 200px;
+    background-color: #f8fafc;
+}
+
+.order_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(99, 78, 78, 0.555);
+    div{
+        width: 900 / 8 + px;
+    }
+    .order_manage{
+        display: flex;
+        flex-direction: column;
+        .canc{
+            padding: 5px 10px!important;
+        }
+    }
+}
+
+.finish_block{
+    display: flex;
+    justify-content: space-between;
+    >div{
+        display: flex;
+        span{
+            padding-left: 10px;
+        }
+    }
+}

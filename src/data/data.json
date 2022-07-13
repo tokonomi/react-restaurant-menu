@@ -1,0 +1,98 @@
+    {
+        "info":[
+            {
+                "serial_number": "1",
+                "table": "M1",
+                "servant": "Iskandar",
+                "status": true,
+                "menu": ["Sote edilmiş midye", "Fransız çörək pudinqi", "Şərab"],
+                "order_amount": {
+                    "Sote edilmiş midye": 2,
+                    "Fransız çörək pudinqi": 2,
+                    "Şərab": 2
+                },
+                "end_date": "08-07-2022 12:12:53"
+            },
+            {
+                "serial_number": "2",
+                "table": "M2",
+                "servant": "Alexander",
+                "status": false,
+                "menu": ["Toyuq Skalopini", "Doldurulmuş steik", "Fransız çörək pudinqi", "Bar 'Kokos'"],
+                "order_amount": {
+                    "Toyuq Skalopini": 1,
+                    "Doldurulmuş steik": 1,
+                    "Fransız çörək pudinqi": 2,
+                    "Bar 'Kokos'": 2
+                },
+                "end_date": ""
+            },
+            {
+                "serial_number": "3",
+                "table": "M3",
+                "servant": "Aziz",
+                "status": true,
+                "menu": ["Parmesan ilə badımcan", "Şərab"],
+                "order_amount": {
+                    "Parmesan ilə badımcan": 1,
+                    "Şərab": 1
+                },
+                "end_date": "08-07-2022 17:22:47"
+            },
+            {
+                "serial_number": "4",
+                "table": "M4",
+                "servant": "Karim",
+                "status": false,
+                "menu": ["Doldurulmuş steik", "Şərab"],
+                "order_amount": {
+                    "Doldurulmuş steik": 2,
+                    "Şərab": 2
+                },
+                "end_date": ""
+            },
+            {
+                "serial_number": "5",
+                "table": "M5",
+                "servant": "Emin",
+                "status": true,
+                "menu": ["Yengeç Pirogu", "Fransız çörək pudinqi", "Ağ şərabda zəfəranlı armud", "Bar 'Kokos'", "Şərab"],
+                "order_amount": {
+                    "Yengeç Pirogu": 2,
+                    "Fransız çörək pudinqi": 2,
+                    "Ağ şərabda zəfəranlı armud": 1,
+                    "Bar 'Kokos'": 1,
+                    "Şərab": 1
+                },
+                "end_date": "08-07-2022 18:01:03"
+            }
+        ],
+        "menu_prices": {
+            "Sote edilmiş midye": 18.99,
+            "Ilbizlər": 28,
+            "Yengeç Pirogu": 20,
+            "Fransız çörək pudinqi": 23,
+            "Ağ şərabda zəfəranlı armud": 32.50,
+            "Doldurulmuş steik": 55, 
+            "Toyuq Skalopini": 32.99,
+            "Parmesan ilə badımcan": 44.50,
+            "Şərab": 20,
+            "Bar 'Kokos'": 20 
+        },
+        "restaurant":{
+            "employees": ["Emin", "Karim", "Aziz", "Alexander", "Iskandar"],
+            "tables": ["M1","M2","M3","M4","M5"]
+        },
+        "cooking_time":{
+            "Sote edilmiş midye": 30,
+            "Ilbizlər": 35,
+            "Yengeç Pirogu": 40,
+            "Fransız çörək pudinqi": 20,
+            "Ağ şərabda zəfəranlı armud": 5,
+            "Doldurulmuş steik": 25, 
+            "Toyuq Skalopini": 20,
+            "Parmesan ilə badımcan": 30,
+            "Şərab": 5,
+            "Bar 'Kokos'": 5 
+        }
+    }
